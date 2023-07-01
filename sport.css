@@ -1,0 +1,371 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    color: wheat
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    padding: 10px;
+    position:sticky;
+    top:0;
+    z-index: 999 ;
+  }
+  .navbar
+  {
+     display: flex;
+     justify-content: space-between;
+     padding:20px,40px;
+  }
+  .navbar img
+  {
+    max-width:100%;
+    height:70px;
+  }
+  .menu ul
+  {
+    display:flex;
+  }
+  .menu ul li
+  {
+    list-style: none;
+    margin:10px;
+  }
+  .menu ul li a
+  {
+    text-decoration: none;
+    color:aqua;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  .menu ul li a:hover
+  {
+    color:blue;
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    background-image:url(GOAL_-_Multiple_Images_-_3_Stacked_-_Facebook_\(33\).webp);
+    background-size:cover;
+    text-align: center;
+    padding: 150px 0;
+    color: #fff;
+  }
+  
+  #hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /* About Section Styles */
+  #about {
+    padding: 100px;
+    color: royalblue;
+    background-image:url(about\ us.jpg);
+    background-size:cover;
+  }
+    /* News Section Styles */
+  #news {
+    padding: 50px;
+    background-image:url(basketball.png);
+    background-size: cover;
+  }
+  
+  .article {
+    margin-bottom: 20px;
+  }
+  
+  .article h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Fixtures Section Styles */
+  #fixtures {
+    padding: 200px;
+    background-image: URL(james-pix.jpg);
+    background-size: cover;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  /*team styles*/
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0px;
+  }
+
+  .team-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #team
+  {
+    background-color:aquamarine;
+    background-size: cover;
+  }
+
+  .team-card h2 {
+    color: gold;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .team-card p {
+    color: blueviolet;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .team-card img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+  /*--blog--------------------------------*/
+#blog
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:0px;
+    border-box:1px solid rgba(0,0,0,0.05);
+
+}
+.blog-heading
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    width:  100%;
+    height: 100%;
+    left: auto;
+  }
+.blog-heading span
+{
+    color:blue;
+    font-size: 40PX;    
+}
+.blog-heading h3
+{
+font-size:2.4rem;
+color:blueviolet;
+}
+.blog-container
+{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin:0px;
+    flex-wrap: wrap;
+    background-color:whitesmoke;
+} 
+.blog-box
+{
+    width:350px;
+    background-color: grey;
+    border:4px solid burlywood;
+    margin:20px;
+    
+}
+.blog-img
+{
+    width:100%;
+    height:auto;
+    border-radius: 50px;
+}
+.blog-img img
+{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position:center;
+    border-radius: 50px;
+}
+.blog-text
+{
+    padding:30px;
+    display:flex;
+    flex-direction: column;
+}
+.blog-text span
+{
+    color:white;
+    font-size: 0.9rem;
+
+}
+.blog-text .blog-title
+{
+    font-size: 1.3rems;
+    font-weight:500;
+    color:blue;
+}
+.blog-text.blog-title:hover
+{
+    color:red;
+    transition:all ease 0.3s;
+
+}
+.section
+{
+    width:100%;
+    min-height: 100%;
+    background-color: red;
+}
+.container
+{
+    width:100%;
+    display:block;
+    margin:auto;
+}
+.content-section
+{
+    float:left;
+    width:55%;
+}
+.image-section
+{
+    float:right;
+    width:40%;
+}
+#player profiles
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding:0px;
+  border-box:1px solid rgba(0,0,0,0.05);
+
+}
+.profile {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #c6e611;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #ff0000;
+}
+
+.profile-picture {
+  flex: 40px 10px 100px 50px;
+  margin-right: 0px;
+  background-color: #ccc;
+}
+
+.profile-picture img {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-info p {
+  margin-bottom: 10px;
+}
+
+.profile-info label {
+  font-weight: bold;
+}
+/* gallery  */
+
+.headergallery
+{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: blanchedalmond;
+  width:  100%;
+  height: 100%;
+  left: auto;
+  color:antiquewhite;
+}
+#gallerysection
+{
+  width:100%;
+  height:100%;
+  justify-content: center;
+  padding:0px;
+  margin:0px;
+}
+table{
+  width:100%;
+  height:100%;
+  margin-top:0px;
+}
+tr, td
+{
+  width:350px;
+    background-color: rgb(233, 231, 241);
+    border:4px solid rgb(253, 146, 6);
+    margin:0px;
+}
+.gallery
+{
+  width:100%;
+  height:auto;
+  border-radius: 40px;
+}
+.gallery img
+{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  object-position:center;
+  border-radius: 10px;
+
+}
+
+
+
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
